@@ -11,13 +11,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET Core
+    - name: Setup .NET Core TEST
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-    - name: Install dependencies
+    - name: Install dependencies TEST
       run: dotnet restore
-    - name: Build
+    - name: Build TEST
       run: dotnet build --configuration Release --no-restore
-    - name: Test
+    - name: Test TEST
       run: dotnet test --no-restore --verbosity normal
