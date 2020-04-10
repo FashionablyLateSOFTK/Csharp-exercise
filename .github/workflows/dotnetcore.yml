@@ -16,8 +16,8 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Install dependencies TEST
-      run: dotnet restore src/exercise.csproj
+      run: dotnet restore src/exercise/Exercise.csproj
     - name: Build TEST
-      run: dotnet build src/exercise/exercise.csproj --no-restore
+      run: dotnet build src/exercise/Exercise.csproj --no-restore
     - name: Test TEST
       run: dotnet test test/ExampleTests/ExampleTests.csproj --no-restore --verbosity normal
