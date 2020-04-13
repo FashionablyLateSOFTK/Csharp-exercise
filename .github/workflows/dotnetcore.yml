@@ -20,4 +20,4 @@ jobs:
     - name: Build TEST
       run: dotnet build src/exercise/exercise.csproj --no-restore
     - name: Test TEST
-      run: dotnet test test/ExampleTests/ExampleTests.csproj --no-restore --verbosity normal
+      run: dotnet test test/ExampleTests/ExampleTests.csproj
