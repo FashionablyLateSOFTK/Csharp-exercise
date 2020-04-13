@@ -1,0 +1,11 @@
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.exe
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.deps.json
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.runtimeconfig.json
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.runtimeconfig.dev.json
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.dll
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\bin\Debug\netcoreapp3.1\exercise.pdb
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\obj\Debug\netcoreapp3.1\exercise.csprojAssemblyReference.cache
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\obj\Debug\netcoreapp3.1\exercise.AssemblyInfoInputs.cache
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\obj\Debug\netcoreapp3.1\exercise.AssemblyInfo.cs
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\obj\Debug\netcoreapp3.1\exercise.dll
+C:\Users\Heidi\Documents\Csharp-exercise\src\exercise\obj\Debug\netcoreapp3.1\exercise.pdb
