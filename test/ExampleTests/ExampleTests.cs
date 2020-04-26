@@ -1,6 +1,7 @@
 using System;
 using NUnit.Framework;
-using Pets;
+using Animals;
+
 
 public class PetTests
 {
