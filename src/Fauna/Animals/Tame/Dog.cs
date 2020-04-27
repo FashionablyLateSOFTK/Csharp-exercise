@@ -18,5 +18,9 @@ namespace Animals
     {
       return "wof wof!";
     }
+    public string ComeHere()
+    {
+      return this.Name + " came to the owner.";
+    }
   }
 }
