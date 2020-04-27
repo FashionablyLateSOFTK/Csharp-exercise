@@ -4,7 +4,7 @@ namespace Animals
 {
   public class Wolf : Animal, IWild
   {
-    public string MakeNoise()
+    public string MakeSound()
     {
       return "Howl!";
     }
