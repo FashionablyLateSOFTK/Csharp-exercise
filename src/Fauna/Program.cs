@@ -1,14 +1,14 @@
 using System;
 
 
-namespace ConsoleApplication
+namespace Animals
 {
   
   public class Program
   {
     public static void Main(string[] args)
     {
-       Dog doggie = new Dog();
+      Dog doggie = new Dog();
       Cat cattie = new Cat();
       Bird birdie = new Bird();
       Console.WriteLine(doggie.TalkToOwner());
