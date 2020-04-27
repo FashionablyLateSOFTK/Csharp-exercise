@@ -35,24 +35,24 @@ namespace Animals
 
             Assert.AreEqual(expected, actual, "Bird should say Chirp!");
         }
-        public void BearMakeNoise()
+        public void BearMakeSound()
         {
             string expected = "Growl!";
-            string actual = new Bear().MakeNoise();
+            string actual = new Bear().MakeSound();
 
             Assert.AreEqual(expected, actual, "Bear should say Growl!");
         }
-        public void TigerMakeNoise()
+        public void TigerMakeSound()
         {
             string expected = "Roar!";
-            string actual = new Tiger().MakeNoise();
+            string actual = new Tiger().MakeSound();
 
             Assert.AreEqual(expected, actual, "Tiger should say Roar!");
         }
-        public void WolfMakeNoise()
+        public void WolfMakeSound()
         {
             string expected = "Howl!";
-            string actual = new Wolf().MakeNoise();
+            string actual = new Wolf().MakeSound();
 
             Assert.AreEqual(expected, actual, "Wolf should say Howl!!");
         }
