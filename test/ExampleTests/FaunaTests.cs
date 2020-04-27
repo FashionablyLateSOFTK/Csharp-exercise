@@ -6,11 +6,11 @@ namespace Animals
 {
     public class PetTests
     {
-     /* [Setup]
-      public void Setup()
-      {
+        [Setup]
+        public void Setup()
+        {
 
-      }*/
+        }
         [Test]
         public void DogTalkToOwnerReturnsWoof()
         {
