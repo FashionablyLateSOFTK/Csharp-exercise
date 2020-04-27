@@ -2,7 +2,7 @@ using System;
 
 namespace Animals
 {
-  public class Bear
+  public class Bear : IWild
   {
     public string MakeNoise()
     {
