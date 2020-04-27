@@ -4,7 +4,7 @@ using System;
 namespace Animals
 {
   
-  public class Program
+  public class Animals
   {
     public static void Main(string[] args)
     {
