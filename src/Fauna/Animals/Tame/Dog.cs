@@ -8,7 +8,7 @@ namespace Animals
     public string Name { get; set;}
     public Dog (string Name)
     {
-      this.Name = Max;
+      this.Name = Name;
     }
     public string TalkToOwner()
     {

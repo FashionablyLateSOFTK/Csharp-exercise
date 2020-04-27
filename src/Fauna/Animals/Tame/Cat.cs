@@ -7,7 +7,7 @@ namespace Animals
     public string Name { get; set; }
     public Cat (string Name)
     {
-      this.Name = Garfield;
+      this.Name = Name;
     }
     
     public string TalkToOwner()

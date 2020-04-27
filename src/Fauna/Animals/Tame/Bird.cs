@@ -7,7 +7,7 @@ namespace Animals
     public string Name { get; set;}
     public Bird (string Name)
     {
-      this.Name = Tweetie;
+      this.Name = Name;
     }
     public string TalkToOwner()
     {
