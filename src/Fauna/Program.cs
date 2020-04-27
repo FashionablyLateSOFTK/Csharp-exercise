@@ -8,17 +8,20 @@ namespace Animals
   {
     public static void Main(string[] args)
     {
-      Dog doggie = new Dog();
-      Cat cattie = new Cat();
-      Bird birdie = new Bird();
-      Console.WriteLine(doggie.MakeSound());
-      Console.WriteLine(cattie.MakeSound());
+      Dog doggie = new Dog("Max");
+      Cat cattie = new Cat("Garfield");
+      Bird birdie = new Bird("Tweetie");
+      Tiger tiger = new Tiger();
+      Wolf wolf = new Wolf();
+      Bear bear = new Bear();
+      //Console.WriteLine(doggie.TalkToOwner());
+      Console.WriteLine(cattie.TalkToOwner());
       Console.WriteLine(birdie.MakeSound());
-      
-      Tiger t = new Tiger();
-      
-      Console.WriteLine(t.MakeSound());
-      Console.WriteLine(t.Hunt());
+      Console.WriteLine(doggie.ComeHere());
+      Console.WriteLine(tiger.Hunt());
+      Console.WriteLine(wolf.Hunt());
+      Console.WriteLine(bear.MakeSound());
+
     }
   }
 }
