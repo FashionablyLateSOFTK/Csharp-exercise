@@ -7,7 +7,7 @@ namespace Animals
     public Tiger(): this("Tiger")
     {
     }
-    public string MakeNoise()
+    public string MakeSound()
     {
       return "Roar!";
     } 
