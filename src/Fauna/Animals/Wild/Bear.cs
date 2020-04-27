@@ -4,7 +4,7 @@ namespace Animals
 {
   public class Bear : Animal, IWild
   {
-    public string MakeNoise()
+    public override string MakeSound()
     {
       return "Growl!";
     }

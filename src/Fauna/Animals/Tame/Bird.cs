@@ -1,8 +1,8 @@
 using System;
 
-namespace Pets
+namespace Animals
 {
-  public class Bird : Animals, ITame
+  public class Bird : Animal, ITame
   {
     public string Name { get; set;}
     public Bird (string Name)
