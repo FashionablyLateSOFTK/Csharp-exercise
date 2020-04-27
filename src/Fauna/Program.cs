@@ -17,6 +17,7 @@ namespace Animals
       Tiger t = new Tiger();
       
       Console.WriteLine(t.MakeSound());
+      Console.WriteLine(t.Hunt());
     }
   }
 }
