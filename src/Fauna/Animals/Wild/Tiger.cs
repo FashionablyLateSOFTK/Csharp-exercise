@@ -2,8 +2,11 @@ using System;
 
 namespace Animals
 {
-  public class Tiger: IWild
+  public class Tiger: Animal, IWild
   {
+    public Tiger(): this("Tiger")
+    {
+    }
     public string MakeNoise()
     {
       return "Roar!";
