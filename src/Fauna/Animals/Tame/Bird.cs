@@ -4,10 +4,10 @@ namespace Animals
 {
   public class Bird : Animal, ITame
   {
-    public string Name { get; set;}
+    public string Name { get; set; }
     public Bird (string Name)
     {
-      this.Name = Tweetie;
+      this.Name = Name;
     }
     public string TalkToOwner()
     {
