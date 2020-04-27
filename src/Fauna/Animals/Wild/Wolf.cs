@@ -10,7 +10,7 @@ namespace Animals
     }
     public string Hunt()
     {
-        return "Wolf hunts";
+        return "Wolf hunts!";
     }
   }
 }
