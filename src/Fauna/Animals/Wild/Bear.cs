@@ -7,6 +7,10 @@ namespace Animals
     public string MakeNoise()
     {
       return "Growl!";
+    }
+    public string Hunt()
+    {
+        return "Bear hunts";
     } 
   }
 }
