@@ -18,7 +18,6 @@ namespace Animals
     {
       return "wof wof!";
 
-
     }
   }
 }
