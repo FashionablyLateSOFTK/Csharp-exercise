@@ -5,11 +5,15 @@ namespace Animals
   public class Cat : Animal, ITame
   {
     public string Name { get; set; }
-    public Cat (string Name)
+    public int weight { get; set; }
+       
+    public Cat ()
     {
       this.Name = Name;
+      this.weight = 3;
+     
     }
-    
+        
     public string TalkToOwner()
     {
       return "Mew!";
@@ -21,6 +25,10 @@ namespace Animals
     public string ComeHere()
     {
       return this.Name + " came to the owner.";
+    }
+    public override void Eat()
+    {
+      this.weight += 1;
     }
   }
 }
