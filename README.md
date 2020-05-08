@@ -23,3 +23,15 @@ So here you can see what the animals can do:
 | Wolf      |                     |  x           |                     |       |       x|
 
 
+
+Here is the tree this program:
+
+```
+Fauna
+|
+|- crs
+|   |_ Animals
+
+The tree comes from Git Bash!
+```
+
