@@ -24,14 +24,38 @@ So here you can see what the animals can do:
 
 
 
-Here is the tree this program:
+Here is the tree of this program:
 
 ```
-Fauna
-|
-|- crs
-|   |_ Animals
-
-The tree comes from Git Bash!
+├── assets
+│    └── class_diagram_with_connections.png
+│ 
+├── src
+│    │
+│    └── Fauna    
+│	      ├── Animals
+│         │       ├── Tame
+│         │       │    ├── Bird.cs
+│         │       │    ├── Cat.cs
+│         │       │    ├── Dog.cs
+│         │       │    └── ITame.cs
+│         │       ├── Wild
+│         │       │     ├── Bear.cs
+│         │       │     ├── IWild.cs
+│         │       │     ├── Tiger.cs
+│	  	  │       |     └── Wolf.cs
+│	   	  |       │ 
+│	      │       └── Animals.cs 
+│         │            
+│         ├── Fauna.csproj
+│         └── Program.cs
+├── test
+│    └── ExampleTests
+│          ├── FaunaTests.cs
+│          └──  FaunaTests.csproj│    
+├── .gitignore         
+│
+│
+└── README.md
 ```
 
