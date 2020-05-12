@@ -47,22 +47,22 @@ Here is the tree of this program:
 ├── src
 │    │
 │    └── Fauna    
-│	      ├── Animals
-│       │       ├── Tame
-│       │       │    ├── Bird.cs
-│       │       │    ├── Cat.cs
-│       │       │    ├── Dog.cs
-│       │       │    └── ITame.cs
-│       │       ├── Wild
-│       │       │     ├── Bear.cs
-│       │       │     ├── IWild.cs
-│       │       │     ├── Tiger.cs
-│	  	  │       |     └── Wolf.cs
-│	   	  |       │ 
-│	      │       └── Animals.cs 
-│       │            
-│       ├── Fauna.csproj
-│       └── Program.cs
+│	  ├── Animals
+│         │       ├── Tame
+│         │       │    ├── Bird.cs
+│         │       │    ├── Cat.cs
+│         │       │    ├── Dog.cs
+│         │       │    └── ITame.cs
+│         │       ├── Wild
+│         │       │     ├── Bear.cs
+│         │       │     ├── IWild.cs
+│         │       │     ├── Tiger.cs
+│	  │       │     └── Wolf.cs
+│	  │       │ 
+│	  │       └── Animals.cs 
+│         │            
+│         ├── Fauna.csproj
+│         └── Program.cs
 ├── test
 │    └── ExampleTests
 │          ├── FaunaTests.cs
@@ -79,6 +79,7 @@ ____
 ![Class Diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/class_diagram_with_conections.png
 )
 
+## Sequence Diagram of this project
 
-## Sequense Diagram of this project
+![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/sequense_diagram)
 
