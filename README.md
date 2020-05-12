@@ -1,7 +1,6 @@
 # Animals
 
-![Tiger](https://i.pinimg.com/originals/ec/79/6c/ec796c953bdb1422affe2fb11eb7ac90.jpg)
-
+![Tiger2](https://upload.wikimedia.org/wikipedia/commons/0/06/Makari_the_Tiger.jpg)
 
 >_**This is a fun program that you can use to invite animals, feed them and even make them sound!  Let's see...**_
 
@@ -25,6 +24,7 @@ So here you can see what the animals can do:
 | Wolf      |                     |  x           |                     |       |       x|
 
 ___
+![Cat](https://wiki.chssigma.com/images/8/84/Cute_cat.jpg)
 ## Tree
 
 Here is the tree of this program:
@@ -62,3 +62,5 @@ Here is the tree of this program:
 └── README.md
 ```
 
+![Class Diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/class_diagram_with_conections.png
+)
