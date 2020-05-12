@@ -7,7 +7,7 @@
 
 
 **Here you can find our Trello -board:
-[Trello](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
+[*Klik*](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
 
 
 ___
