@@ -47,7 +47,7 @@ Here is the tree of this program:
 ├── src
 │    │
 │    └── Fauna    
-│	      ├── Animals
+│	  ├── Animals
 │         │       ├── Tame
 │         │       │    ├── Bird.cs
 │         │       │    ├── Cat.cs
@@ -57,9 +57,9 @@ Here is the tree of this program:
 │         │       │     ├── Bear.cs
 │         │       │     ├── IWild.cs
 │         │       │     ├── Tiger.cs
-│	  	  │       |     └── Wolf.cs
-│	   	  |       │ 
-│	      │       └── Animals.cs 
+│	  │       │     └── Wolf.cs
+│	  │       │ 
+│	  │       └── Animals.cs 
 │         │            
 │         ├── Fauna.csproj
 │         └── Program.cs
@@ -79,4 +79,6 @@ ____
 ![Class Diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/class_diagram_with_conections.png
 )
 
-## Sequense Diagram of this project
+## Sequence Diagram of this project
+
+![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/sequense_diagram)
