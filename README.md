@@ -7,7 +7,7 @@
 
 
 **Here you can find our Trello -board:
-[Trello](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
+[*Klik*](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
 
 
 ___
@@ -37,21 +37,21 @@ Here is the tree of this program:
 │    │
 │    └── Fauna    
 │	      ├── Animals
-│         │       ├── Tame
-│         │       │    ├── Bird.cs
-│         │       │    ├── Cat.cs
-│         │       │    ├── Dog.cs
-│         │       │    └── ITame.cs
-│         │       ├── Wild
-│         │       │     ├── Bear.cs
-│         │       │     ├── IWild.cs
-│         │       │     ├── Tiger.cs
+│       │       ├── Tame
+│       │       │    ├── Bird.cs
+│       │       │    ├── Cat.cs
+│       │       │    ├── Dog.cs
+│       │       │    └── ITame.cs
+│       │       ├── Wild
+│       │       │     ├── Bear.cs
+│       │       │     ├── IWild.cs
+│       │       │     ├── Tiger.cs
 │	  	  │       |     └── Wolf.cs
 │	   	  |       │ 
 │	      │       └── Animals.cs 
-│         │            
-│         ├── Fauna.csproj
-│         └── Program.cs
+│       │            
+│       ├── Fauna.csproj
+│       └── Program.cs
 ├── test
 │    └── ExampleTests
 │          ├── FaunaTests.cs
