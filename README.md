@@ -37,21 +37,21 @@ Here is the tree of this program:
 │    │
 │    └── Fauna    
 │	      ├── Animals
-│         │       ├── Tame
-│         │       │    ├── Bird.cs
-│         │       │    ├── Cat.cs
-│         │       │    ├── Dog.cs
-│         │       │    └── ITame.cs
-│         │       ├── Wild
-│         │       │     ├── Bear.cs
-│         │       │     ├── IWild.cs
-│         │       │     ├── Tiger.cs
+│       │       ├── Tame
+│       │       │    ├── Bird.cs
+│       │       │    ├── Cat.cs
+│       │       │    ├── Dog.cs
+│       │       │    └── ITame.cs
+│       │       ├── Wild
+│       │       │     ├── Bear.cs
+│       │       │     ├── IWild.cs
+│       │       │     ├── Tiger.cs
 │	  	  │       |     └── Wolf.cs
 │	   	  |       │ 
 │	      │       └── Animals.cs 
-│         │            
-│         ├── Fauna.csproj
-│         └── Program.cs
+│       │            
+│       ├── Fauna.csproj
+│       └── Program.cs
 ├── test
 │    └── ExampleTests
 │          ├── FaunaTests.cs
