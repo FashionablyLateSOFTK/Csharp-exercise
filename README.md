@@ -24,7 +24,9 @@ So here you can see what the animals can do:
 | Wolf      |                     |  x           |                     |       |       x|
 
 ___
+
 ![Cat](https://wiki.chssigma.com/images/8/84/Cute_cat.jpg)
+
 ## Tree
 
 Here is the tree of this program:
