@@ -43,7 +43,9 @@ namespace Animals
       Console.WriteLine();
 
       
-
+      cattie.Eat();
+      cattie.Eat();
+      doggie.Eat();
     }
   }
 }

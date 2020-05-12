@@ -5,9 +5,11 @@ namespace Animals
   public class Bird : Animal, ITame
   {
     public string Name { get; set; }
-    public Bird (string Name)
+    public int weight { get; set; }
+    public Bird ()
     {
       this.Name = Name;
+      this.weight = 0;
     }
     public string TalkToOwner()
     {
@@ -21,7 +23,9 @@ namespace Animals
     {
       return this.Name + " came to the owner.";
     }
+    public override void Eat()
+    {
+      this.weight += 1;
+    }
   }
-
-  
 }
