@@ -25,7 +25,7 @@ So here you can see what the animals can do:
 
 ___
 
-![Cat](https://wiki.chssigma.com/images/8/84/Cute_cat.jpg)
+![Cat](https://i.imgur.com/9oGgtUg.jpg)
 
 ## Tree
 
@@ -63,6 +63,9 @@ Here is the tree of this program:
 │
 └── README.md
 ```
+____
+
+## Class Diagram fo this project
 
 ![Class Diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/class_diagram_with_conections.png
 )
