@@ -15,6 +15,9 @@ namespace Animals
       Wolf wolf = new Wolf();
       Bear bear = new Bear();
 
+      TextInterface textInterface = new TextInterface();
+      textInterface.Start();
+
       Console.WriteLine(doggie.TalkToOwner());
       Console.WriteLine(cattie.TalkToOwner());
       Console.WriteLine(birdie.TalkToOwner());
