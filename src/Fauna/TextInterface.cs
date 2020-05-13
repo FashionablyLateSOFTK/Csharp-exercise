@@ -49,7 +49,7 @@ namespace Animals
                    {
                        Console.WriteLine("Give a name:");
                        string name = Console.ReadLine();
-                       
+
                    }
                    if (birdMethod == "back")
                    {
