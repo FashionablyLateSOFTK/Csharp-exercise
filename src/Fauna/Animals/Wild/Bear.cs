@@ -27,7 +27,7 @@ namespace Animals
       }
       else
       {
-        return "Found no game";
+        return "Bear found no game and still weighs " + this.weight + " kg.";
       }
     }
     public override void Eat()
