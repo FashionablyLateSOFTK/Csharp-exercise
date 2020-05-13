@@ -6,7 +6,7 @@ namespace Animals
   {
     public string Name { get; set; }
     public int weight { get; set; }
-    public Bird ()
+    public Bird (string Name)
     {
       this.Name = Name;
       this.weight = 0;

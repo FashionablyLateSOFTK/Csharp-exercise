@@ -43,7 +43,7 @@ namespace Animals
       Console.WriteLine();
 
       
-      cattie.Eat();
+      birdie.Eat();
       cattie.Eat();
       doggie.Eat();
     }
