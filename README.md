@@ -42,8 +42,9 @@ Here is the tree of this program:
 
 ```
 ├── assets
-│    └── class_diagram_with_connections.png
-│ 
+│    ├── class_diagram_with_connections.png
+│    └── Sequence_diagram
+│
 ├── src
 │    │
 │    └── Fauna    
