@@ -7,10 +7,10 @@ namespace Animals
     public int weight { get; set; }
     private Random random;
 
-    public Bear()
+    public Bear(int weight)
     {
       this.random = new Random();
-      this.weight = 300;     
+      this.weight = weight;     
     }
     public override string MakeSound()
     {

@@ -11,9 +11,9 @@ namespace Animals
       Dog dog = new Dog("Max", 25);
       Cat cat = new Cat("Garfield", 3);
       Bird bird = new Bird("Tweetie", 2);
-      Tiger tiger = new Tiger();
-      Wolf wolf = new Wolf();
-      Bear bear = new Bear();
+      Tiger tiger = new Tiger(100);
+      Wolf wolf = new Wolf(50);
+      Bear bear = new Bear(300);
 
       
      TextInterface textInterface = new TextInterface(bird, cat, dog);
