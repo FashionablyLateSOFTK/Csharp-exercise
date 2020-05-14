@@ -80,7 +80,7 @@ namespace Animals
                                 {
                                     Start();
                                 }
-                                if (birdMethod == "quit")
+                                if (birdMethod == "quit") //still need some work(?)
                                 {
                                     return;
                                 }
