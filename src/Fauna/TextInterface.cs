@@ -8,11 +8,17 @@ namespace Animals
         private Bird bird;
         private Cat cat;
         private Dog dog;
-        public TextInterface(Bird bird, Cat cat, Dog dog)
+        private Bear bear;
+        private Tiger tiger;
+        private Wolf wolf;
+        public TextInterface(Bird bird, Cat cat, Dog dog, Bear bear, Tiger tiger, Wolf wolf)
         {
             this.bird = bird;
             this.cat = cat;
             this.dog = dog;
+            this.bear = bear;
+            this.tiger = tiger;
+            this.wolf = wolf;
         }
         public void Start()
         {
@@ -176,6 +182,84 @@ namespace Animals
                                 }
                             }
                         }
+                        if (species == "bear" || species == "Bear")
+                        {
+                            while (true)
+                            {
+                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                                string bearMethod = Console.ReadLine();
+                                if (bearMethod == "Hunt")
+                                {
+                                    Console.WriteLine(this.bear.Hunt());
+                                    Console.WriteLine();
+                                }
+                                if (bearMethod == "MakeSound")
+                                {
+                                    Console.WriteLine(this.bear.MakeSound());
+                                    Console.WriteLine();
+                                }
+                                if (bearMethod == "back")
+                                {
+                                    Start();
+                                }
+                                if (bearMethod == "quit") //still need some work(?)
+                                {
+                                    return;
+                                }
+                            }
+                        } // bear loop-end
+                        if (species == "tiger" || species == "Tiger")
+                        {
+                            while (true)
+                            {
+                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                                string tigerMethod = Console.ReadLine();
+                                if (tigerMethod == "Hunt")
+                                {
+                                    Console.WriteLine(this.tiger.Hunt());
+                                    Console.WriteLine();
+                                }
+                                if (tigerMethod == "MakeSound")
+                                {
+                                    Console.WriteLine(this.tiger.MakeSound());
+                                    Console.WriteLine();
+                                }
+                                if (tigerMethod == "back")
+                                {
+                                    Start();
+                                }
+                                if (tigerMethod == "quit") //still need some work(?)
+                                {
+                                    return;
+                                }
+                            }
+                        } // tiger loop-end
+                        if (species == "Wolf" || species == "wolf")
+                        {
+                            while (true)
+                            {
+                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                                string wolfMethod = Console.ReadLine();
+                                if (wolfMethod == "Hunt")
+                                {
+                                    Console.WriteLine(this.wolf.Hunt());
+                                    Console.WriteLine();
+                                }
+                                if (wolfMethod == "MakeSound")
+                                {
+                                    Console.WriteLine(this.wolf.MakeSound());
+                                    Console.WriteLine();
+                                }
+                                if (wolfMethod == "back")
+                                {
+                                    Start();
+                                }
+                                if (wolfMethod == "quit") //still need some work(?)
+                                {
+                                    return;
+                                }
+                            }
+                        } // wolf loop-end
                     }
                 }
                 if (answer == "quit")

@@ -16,7 +16,7 @@ namespace Animals
       Bear bear = new Bear(300);
 
       
-     TextInterface textInterface = new TextInterface(bird, cat, dog);
+     TextInterface textInterface = new TextInterface(bird, cat, dog, bear, tiger, wolf);
      textInterface.Start();
 
       /*Console.WriteLine(doggie.TalkToOwner());
