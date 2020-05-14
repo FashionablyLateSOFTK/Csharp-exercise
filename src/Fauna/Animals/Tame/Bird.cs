@@ -6,10 +6,10 @@ namespace Animals
   {
     public string Name { get; set; }
     public int weight { get; set; }
-    public Bird (string Name)
+    public Bird (string Name, int weight)
     {
       this.Name = Name;
-      this.weight = 0;
+      this.weight = weight;
     }
     public string TalkToOwner()
     {

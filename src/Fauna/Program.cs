@@ -10,15 +10,16 @@ namespace Animals
     {
       Dog doggie = new Dog("Max");
       Cat cattie = new Cat("Garfield");
-      Bird birdie = new Bird("Tweetie");
+      Bird bird = new Bird("Tweetie", 5);
       Tiger tiger = new Tiger();
       Wolf wolf = new Wolf();
       Bear bear = new Bear();
 
-      TextInterface textInterface = new TextInterface();
-      textInterface.Start();
+      
+     TextInterface textInterface = new TextInterface(bird);
+     textInterface.Start();
 
-      Console.WriteLine(doggie.TalkToOwner());
+      /*Console.WriteLine(doggie.TalkToOwner());
       Console.WriteLine(cattie.TalkToOwner());
       Console.WriteLine(birdie.TalkToOwner());
     
@@ -48,7 +49,7 @@ namespace Animals
       
       birdie.Eat();
       cattie.Eat();
-      doggie.Eat();
+      doggie.Eat();*/
     }
   }
 }
