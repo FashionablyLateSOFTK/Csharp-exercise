@@ -40,7 +40,6 @@ namespace Animals
                     Console.WriteLine();
                     while (true)
                     {
-
                         if (species == "Bird")
                         {
                             while (true)
@@ -74,7 +73,6 @@ namespace Animals
                                     this.bird.Name = newName;
                                     //change the name for the animal
                                     Console.WriteLine();
-
                                 }
                                 if (birdMethod == "back")
                                 {
@@ -85,13 +83,12 @@ namespace Animals
                                     return;
                                 }
                             }
-                        }
+                        } // bird loop-end
                     }
                 }
                 if (answer == "quit")
                 {
                     break;
-
                 }
             }
         }
