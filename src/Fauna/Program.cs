@@ -8,15 +8,15 @@ namespace Animals
   {
     public static void Main(string[] args)
     {
-      Dog doggie = new Dog("Max");
-      Cat cattie = new Cat("Garfield");
-      Bird bird = new Bird("Tweetie", 5);
+      Dog dog = new Dog("Max", 25);
+      Cat cat = new Cat("Garfield", 3);
+      Bird bird = new Bird("Tweetie", 2);
       Tiger tiger = new Tiger();
       Wolf wolf = new Wolf();
       Bear bear = new Bear();
 
       
-     TextInterface textInterface = new TextInterface(bird);
+     TextInterface textInterface = new TextInterface(bird, cat, dog);
      textInterface.Start();
 
       /*Console.WriteLine(doggie.TalkToOwner());

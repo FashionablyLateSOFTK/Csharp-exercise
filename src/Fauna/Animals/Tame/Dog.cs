@@ -6,11 +6,11 @@ namespace Animals
   public class Dog: Animal, ITame
   {
     public string Name { get; set; }
-    public int weight;
-    public Dog (string Name)
+    public int weight { get; set; }
+    public Dog (string Name, int weight)
     {
       this.Name = Name;
-      this.weight = 25;
+      this.weight = weight;
     }
     public string TalkToOwner()
     {
