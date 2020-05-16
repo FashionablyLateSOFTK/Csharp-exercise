@@ -32,9 +32,8 @@ namespace Animals
 
 
             Console.WriteLine("What do you want to do? [list, quit]");
-
             while (true)
-            {
+            { 
                 string answer = Console.ReadLine();
                 if (answer == "list")
                 {
@@ -48,6 +47,7 @@ namespace Animals
 
                     string species = Console.ReadLine();
                     Console.WriteLine();
+                   
                     while (true)
                     {
                         if (species == "Bird" || species == "bird")
@@ -90,8 +90,10 @@ namespace Animals
                                 }
                                 if (birdMethod == "quit") //still need some work(?)
                                 {
-                                    return;
+                                    
+                                    break;
                                 }
+                                
                             }
                         } // bird loop-end
                         if (species == "Cat" || species == "cat")
@@ -264,7 +266,7 @@ namespace Animals
                 }
                 if (answer == "quit")
                 {
-                    break;
+                    return;
                 }
             }
         }
