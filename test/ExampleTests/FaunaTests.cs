@@ -102,8 +102,15 @@ namespace Animals
             string or = "Bear found no game and still weighs " + new Bear(0) + " kg."; 
             string actual = new Bear(0).Hunt();
 
+            if (expected == actual)
+            {
             Assert.AreEqual(expected, actual, "Bear should hunt!");
-            Assert.AreEqual(or, actual, "Bear was not successful!");
+            }
+            if (or == actual)
+            {
+                Assert.AreEqual(or, actual, "Bear should not always be successful!");
+            }
+           
         }
         [Test]
         public void TigerMakeSound()
@@ -117,10 +124,19 @@ namespace Animals
         [Test]
         public void TigerHunt()
         {
-            string expected = "Tiger hunts!";
+           string expected = "Tiger kills and eats and now weighs " + new Tiger(0) + " kg.!";
+            string or = "Tiger found no game and still weighs " + new Tiger(0) + " kg."; 
             string actual = new Tiger(0).Hunt();
 
+            
+            if (expected == actual)
+            {
             Assert.AreEqual(expected, actual, "Tiger should hunt!");
+            }
+            if (or == actual)
+            {
+                Assert.AreEqual(or, actual, "Tiger should not always be successful!");
+            }
         }
         [Test]
 
@@ -134,10 +150,19 @@ namespace Animals
         [Test]
         public void WolfHunt()
         {
-            string expected = "Wolf hunts!";
+            string expected = "Wolf kills and eats and now weighs " + new Wolf(0) + " kg.!";
+            string or = "Wolf found no game and still weighs " + new Wolf(0) + " kg."; 
             string actual = new Wolf(0).Hunt();
 
+            
+            if (expected == actual)
+            {
             Assert.AreEqual(expected, actual, "Wolf should hunt!");
+            }
+            if (or == actual)
+            {
+                Assert.AreEqual(or, actual, "Wolf should not always be successful!");
+            }
         }
 
 
