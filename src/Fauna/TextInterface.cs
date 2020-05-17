@@ -40,7 +40,7 @@ namespace Animals
                 {
                     Console.WriteLine();
                     Console.WriteLine("List of animals:");
-                    animals.ForEach(Console.WriteLine);//prints list of animals
+                    animals.ForEach(Console.WriteLine);
 
                     Console.WriteLine();
 
@@ -82,7 +82,6 @@ namespace Animals
                                 Console.WriteLine("Give a name:");
                                 string newName = Console.ReadLine();
                                 this.bird.Name = newName;
-                                //change the name for the animal
                                 Console.WriteLine();
                             }
                             if (birdMethod == "back")
@@ -90,14 +89,14 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (birdMethod == "quit") //still need some work(?)
+                            if (birdMethod == "quit")
                             {
-
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
                             }
 
                         }
-                    } // bird loop-end
+                    }
                     if (species == "Cat" || species == "cat")
                     {
                         while (true)
@@ -129,7 +128,6 @@ namespace Animals
                                 Console.WriteLine("Give a name:");
                                 string newName = Console.ReadLine();
                                 this.cat.Name = newName;
-                                //change the name for the animal
                                 Console.WriteLine();
                             }
                             if (catMethod == "back")
@@ -137,8 +135,9 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (catMethod == "quit") //still need some work(?)
+                            if (catMethod == "quit")
                             {
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
                             }
                         }
@@ -174,7 +173,6 @@ namespace Animals
                                 Console.WriteLine("Give a name:");
                                 string newName = Console.ReadLine();
                                 this.dog.Name = newName;
-                                //change the name for the animal
                                 Console.WriteLine();
                             }
                             if (dogMethod == "back")
@@ -182,8 +180,9 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (dogMethod == "quit") //still need some work(?)
+                            if (dogMethod == "quit")
                             {
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
                             }
                         }
@@ -209,12 +208,13 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (bearMethod == "quit") //still need some work(?)
+                            if (bearMethod == "quit")
                             {
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
                             }
                         }
-                    } // bear loop-end
+                    }
                     if (species == "tiger" || species == "Tiger")
                     {
                         while (true)
@@ -236,12 +236,13 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (tigerMethod == "quit") //still need some work(?)
+                            if (tigerMethod == "quit")
                             {
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
                             }
                         }
-                    } // tiger loop-end
+                    }
                     if (species == "Wolf" || species == "wolf")
                     {
                         while (true)
@@ -263,20 +264,18 @@ namespace Animals
                                 Start();
                                 return;
                             }
-                            if (wolfMethod == "quit") //still need some work(?)
+                            if (wolfMethod == "quit")
                             {
+                                Console.WriteLine("Thank You for visiting our animals!");
                                 return;
-                            } 
+                            }
                         }
 
                     }
-
-                    // wolf loop-end
-
                 }
                 if (answer == "quit")
                 {
-
+                    Console.WriteLine("Thank You for visiting our animals!");
                 }
             }
         }
