@@ -45,7 +45,8 @@ Here is the tree of this program:
 ```
 ├── assets
 │    ├── class_diagram_with_connections.png
-│    └── Sequence-diagram.png
+│    ├── Sequence-diagram.png
+│    └── Dingo.jpg
 │
 ├── src
 │    │
