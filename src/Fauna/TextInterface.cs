@@ -34,7 +34,8 @@ namespace Animals
             Console.WriteLine("What do you want to do? [list, quit]");
 
             string answer = Console.ReadLine();
-            
+
+            {
                 if (answer == "list")
                 {
                     Console.WriteLine();
@@ -87,11 +88,12 @@ namespace Animals
                             if (birdMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (birdMethod == "quit") //still need some work(?)
                             {
 
-                                break;
+                                return;
                             }
 
                         }
@@ -133,10 +135,11 @@ namespace Animals
                             if (catMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (catMethod == "quit") //still need some work(?)
                             {
-                                break;
+                                return;
                             }
                         }
                     }
@@ -177,10 +180,11 @@ namespace Animals
                             if (dogMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (dogMethod == "quit") //still need some work(?)
                             {
-                                break;
+                                return;
                             }
                         }
                     }
@@ -203,10 +207,11 @@ namespace Animals
                             if (bearMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (bearMethod == "quit") //still need some work(?)
                             {
-                                break;
+                                return;
                             }
                         }
                     } // bear loop-end
@@ -229,10 +234,11 @@ namespace Animals
                             if (tigerMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (tigerMethod == "quit") //still need some work(?)
                             {
-                                break;
+                                return;
                             }
                         }
                     } // tiger loop-end
@@ -255,21 +261,26 @@ namespace Animals
                             if (wolfMethod == "back")
                             {
                                 Start();
+                                return;
                             }
                             if (wolfMethod == "quit") //still need some work(?)
                             {
-                                break;
-                            }
+                                return;
+                            } 
                         }
+
                     }
+
                     // wolf loop-end
 
                 }
                 if (answer == "quit")
                 {
-                    
+
                 }
             }
-
         }
     }
+}
+
+
