@@ -36,7 +36,7 @@ Here you can see what the animals can do:
 >*= Eat only when they have luck with Hunting
 ___
 
-![Dingo](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Dingo.jpg)
+![Dingo](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Dingo.jpg)
 
 ## Tree
 
@@ -93,7 +93,7 @@ ___
 
 >"Back" always takes you back in the program and "quit" ends the program.
 
-![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Sequence-diagram.png)
+![Sequence diagram](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Sequence-diagram.png)
 
 ___
 
