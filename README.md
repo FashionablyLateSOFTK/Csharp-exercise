@@ -33,7 +33,7 @@ Here you can see what the animals can do:
 | Wolf*      |                     |  x           |                     |     x |       x|
 
 
->*= Eat only when they have luky in Hunting
+>*= Eat only when they have luck with Hunting
 ___
 
 ![Cat](https://i.imgur.com/9oGgtUg.jpg)
