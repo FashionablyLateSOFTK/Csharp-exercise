@@ -95,7 +95,7 @@ ___
 
 >"Back" always takes you back in the program and "quit" ends the program.
 
-![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Sequence-diagram.png)
+![Sequence diagram](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Sequence-diagram.png)
 
 ___
 
