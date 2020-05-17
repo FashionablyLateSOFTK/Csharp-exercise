@@ -15,7 +15,7 @@ A tame animal is an animal that is relatively tolerant of human presence. Tamene
 This project is made together 3 students from Centria: Heidi Keskitalo, Mathilda Nynäs and Daniel Tunér.
 
 **Here you can find our Trello -board:
-[*Klik*](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
+[*Click*](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
 
 
 ___
@@ -77,6 +77,8 @@ Here is the tree of this program:
 ____
 
 ## Class Diagram of this project
+
+>In this Class Diagram both tame and wild animals inherit the abstract class Animal. The wild animals Wolf, Tiger and Bear all implement the interface IWild and the tame animals Dog, Cat and Bird implement the interface ITame. Both tame and wild animals implement the interface TextInterface.
 
 ![Class Diagram](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Class%20diagram%20with%20connections.png)
 
