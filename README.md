@@ -1,6 +1,6 @@
 # Animals
 
-![Tiger2](https://upload.wikimedia.org/wikipedia/commons/0/06/Makari_the_Tiger.jpgs.200)
+![Tiger2](https://upload.wikimedia.org/wikipedia/commons/0/06/Makari_the_Tiger.jpg)
 
 >_**This is a fun program that you can use to invite animals, feed them and even make them sound!  Let's see...**_
 
