@@ -82,5 +82,5 @@ ____
 
 ## Sequence Diagram of this project
 
-![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/sequense_diagram)
+![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Sequence-diagram.png)
 
