@@ -10,7 +10,7 @@ namespace Animals
     public Dog (string Name, int weight)
     {
       this.Name = Name;
-      this.weight = weight;
+      this.weight = weight; //
     }
     public string TalkToOwner()
     {
