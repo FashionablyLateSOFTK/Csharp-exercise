@@ -33,10 +33,11 @@ Here you can see what the animals can do:
 | Wolf*      |                     |  x           |                     |     x |       x|
 
 
->*= Eat only when they have luck with Hunting
+>*= Eat only when they have luky in Hunting
 ___
 
 ![Dingo](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Dingo.jpg)
+Dingo
 
 ## Tree
 
