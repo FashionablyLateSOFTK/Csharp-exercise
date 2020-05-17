@@ -78,8 +78,7 @@ ____
 
 ## Class Diagram of this project
 
-![Class Diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/class_diagram_with_conections.png
-)
+![Class Diagram](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Class%20diagram%20with%20connections.png)
 
 ## Sequence Diagram of this project
 

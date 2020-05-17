@@ -33,9 +33,8 @@ namespace Animals
 
             Console.WriteLine("What do you want to do? [list, quit]");
 
-            while (true)
-            {
-                string answer = Console.ReadLine();
+            string answer = Console.ReadLine();
+            
                 if (answer == "list")
                 {
                     Console.WriteLine();
@@ -48,225 +47,229 @@ namespace Animals
 
                     string species = Console.ReadLine();
                     Console.WriteLine();
-                    while (true)
+
+
+
+                    if (species == "Bird" || species == "bird")
                     {
-                        if (species == "Bird" || species == "bird")
+                        while (true)
                         {
-                            while (true)
+                            Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
+                            string birdMethod = Console.ReadLine();
+                            if (birdMethod == "Eat")
                             {
-                                Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
-                                string birdMethod = Console.ReadLine();
-                                if (birdMethod == "Eat")
-                                {
-                                    this.bird.Eat();
-                                    Console.WriteLine();
-                                }
-                                if (birdMethod == "TalkToOwner")
-                                {
-                                    Console.WriteLine(this.bird.TalkToOwner());
-                                    Console.WriteLine();
-                                }
-                                if (birdMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.bird.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (birdMethod == "ComeHere")
-                                {
-                                    Console.WriteLine(this.bird.ComeHere());
-                                    Console.WriteLine();
-                                }
-                                if (birdMethod == "GiveName")
-                                {
-                                    Console.WriteLine("Give a name:");
-                                    string newName = Console.ReadLine();
-                                    this.bird.Name = newName;
-                                    //change the name for the animal
-                                    Console.WriteLine();
-                                }
-                                if (birdMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (birdMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
+                                this.bird.Eat();
+                                Console.WriteLine();
                             }
-                        } // bird loop-end
-                        if (species == "Cat" || species == "cat")
-                        {
-                            while (true)
+                            if (birdMethod == "TalkToOwner")
                             {
-                                Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
-                                string catMethod = Console.ReadLine();
-                                if (catMethod == "Eat")
-                                {
-                                    this.cat.Eat();
-                                    Console.WriteLine();
-                                }
-                                if (catMethod == "TalkToOwner")
-                                {
-                                    Console.WriteLine(this.cat.TalkToOwner());
-                                    Console.WriteLine();
-                                }
-                                if (catMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.cat.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (catMethod == "ComeHere")
-                                {
-                                    Console.WriteLine(this.cat.ComeHere());
-                                    Console.WriteLine();
-                                }
-                                if (catMethod == "GiveName")
-                                {
-                                    Console.WriteLine("Give a name:");
-                                    string newName = Console.ReadLine();
-                                    this.cat.Name = newName;
-                                    //change the name for the animal
-                                    Console.WriteLine();
-                                }
-                                if (catMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (catMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
+                                Console.WriteLine(this.bird.TalkToOwner());
+                                Console.WriteLine();
+                            }
+                            if (birdMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.bird.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (birdMethod == "ComeHere")
+                            {
+                                Console.WriteLine(this.bird.ComeHere());
+                                Console.WriteLine();
+                            }
+                            if (birdMethod == "GiveName")
+                            {
+                                Console.WriteLine("Give a name:");
+                                string newName = Console.ReadLine();
+                                this.bird.Name = newName;
+                                //change the name for the animal
+                                Console.WriteLine();
+                            }
+                            if (birdMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (birdMethod == "quit") //still need some work(?)
+                            {
+
+                                break;
+                            }
+
+                        }
+                    } // bird loop-end
+                    if (species == "Cat" || species == "cat")
+                    {
+                        while (true)
+                        {
+                            Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
+                            string catMethod = Console.ReadLine();
+                            if (catMethod == "Eat")
+                            {
+                                this.cat.Eat();
+                                Console.WriteLine();
+                            }
+                            if (catMethod == "TalkToOwner")
+                            {
+                                Console.WriteLine(this.cat.TalkToOwner());
+                                Console.WriteLine();
+                            }
+                            if (catMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.cat.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (catMethod == "ComeHere")
+                            {
+                                Console.WriteLine(this.cat.ComeHere());
+                                Console.WriteLine();
+                            }
+                            if (catMethod == "GiveName")
+                            {
+                                Console.WriteLine("Give a name:");
+                                string newName = Console.ReadLine();
+                                this.cat.Name = newName;
+                                //change the name for the animal
+                                Console.WriteLine();
+                            }
+                            if (catMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (catMethod == "quit") //still need some work(?)
+                            {
+                                break;
                             }
                         }
-                        if (species == "Dog" || species == "dog")
-                        {
-                            while (true)
-                            {
-                                Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
-                                string dogMethod = Console.ReadLine();
-                                if (dogMethod == "Eat")
-                                {
-                                    this.dog.Eat();
-                                    Console.WriteLine();
-                                }
-                                if (dogMethod == "TalkToOwner")
-                                {
-                                    Console.WriteLine(this.dog.TalkToOwner());
-                                    Console.WriteLine();
-                                }
-                                if (dogMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.dog.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (dogMethod == "ComeHere")
-                                {
-                                    Console.WriteLine(this.dog.ComeHere());
-                                    Console.WriteLine();
-                                }
-                                if (dogMethod == "GiveName")
-                                {
-                                    Console.WriteLine("Give a name:");
-                                    string newName = Console.ReadLine();
-                                    this.dog.Name = newName;
-                                    //change the name for the animal
-                                    Console.WriteLine();
-                                }
-                                if (dogMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (dogMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
-                            }
-                        }
-                        if (species == "bear" || species == "Bear")
-                        {
-                            while (true)
-                            {
-                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
-                                string bearMethod = Console.ReadLine();
-                                if (bearMethod == "Hunt")
-                                {
-                                    Console.WriteLine(this.bear.Hunt());
-                                    Console.WriteLine();
-                                }
-                                if (bearMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.bear.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (bearMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (bearMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
-                            }
-                        } // bear loop-end
-                        if (species == "tiger" || species == "Tiger")
-                        {
-                            while (true)
-                            {
-                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
-                                string tigerMethod = Console.ReadLine();
-                                if (tigerMethod == "Hunt")
-                                {
-                                    Console.WriteLine(this.tiger.Hunt());
-                                    Console.WriteLine();
-                                }
-                                if (tigerMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.tiger.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (tigerMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (tigerMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
-                            }
-                        } // tiger loop-end
-                        if (species == "Wolf" || species == "wolf")
-                        {
-                            while (true)
-                            {
-                                Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
-                                string wolfMethod = Console.ReadLine();
-                                if (wolfMethod == "Hunt")
-                                {
-                                    Console.WriteLine(this.wolf.Hunt());
-                                    Console.WriteLine();
-                                }
-                                if (wolfMethod == "MakeSound")
-                                {
-                                    Console.WriteLine(this.wolf.MakeSound());
-                                    Console.WriteLine();
-                                }
-                                if (wolfMethod == "back")
-                                {
-                                    Start();
-                                }
-                                if (wolfMethod == "quit") //still need some work(?)
-                                {
-                                    return;
-                                }
-                            }
-                        } // wolf loop-end
                     }
+                    if (species == "Dog" || species == "dog")
+                    {
+                        while (true)
+                        {
+                            Console.WriteLine("What do you want to do? [Eat, TalkToOwner, MakeSound, ComeHere, GiveName, back, quit]");
+                            string dogMethod = Console.ReadLine();
+                            if (dogMethod == "Eat")
+                            {
+                                this.dog.Eat();
+                                Console.WriteLine();
+                            }
+                            if (dogMethod == "TalkToOwner")
+                            {
+                                Console.WriteLine(this.dog.TalkToOwner());
+                                Console.WriteLine();
+                            }
+                            if (dogMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.dog.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (dogMethod == "ComeHere")
+                            {
+                                Console.WriteLine(this.dog.ComeHere());
+                                Console.WriteLine();
+                            }
+                            if (dogMethod == "GiveName")
+                            {
+                                Console.WriteLine("Give a name:");
+                                string newName = Console.ReadLine();
+                                this.dog.Name = newName;
+                                //change the name for the animal
+                                Console.WriteLine();
+                            }
+                            if (dogMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (dogMethod == "quit") //still need some work(?)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                    if (species == "bear" || species == "Bear")
+                    {
+                        while (true)
+                        {
+                            Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                            string bearMethod = Console.ReadLine();
+                            if (bearMethod == "Hunt")
+                            {
+                                Console.WriteLine(this.bear.Hunt());
+                                Console.WriteLine();
+                            }
+                            if (bearMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.bear.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (bearMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (bearMethod == "quit") //still need some work(?)
+                            {
+                                break;
+                            }
+                        }
+                    } // bear loop-end
+                    if (species == "tiger" || species == "Tiger")
+                    {
+                        while (true)
+                        {
+                            Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                            string tigerMethod = Console.ReadLine();
+                            if (tigerMethod == "Hunt")
+                            {
+                                Console.WriteLine(this.tiger.Hunt());
+                                Console.WriteLine();
+                            }
+                            if (tigerMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.tiger.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (tigerMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (tigerMethod == "quit") //still need some work(?)
+                            {
+                                break;
+                            }
+                        }
+                    } // tiger loop-end
+                    if (species == "Wolf" || species == "wolf")
+                    {
+                        while (true)
+                        {
+                            Console.WriteLine("What do you want to do? [Hunt, MakeSound, back, quit]");
+                            string wolfMethod = Console.ReadLine();
+                            if (wolfMethod == "Hunt")
+                            {
+                                Console.WriteLine(this.wolf.Hunt());
+                                Console.WriteLine();
+                            }
+                            if (wolfMethod == "MakeSound")
+                            {
+                                Console.WriteLine(this.wolf.MakeSound());
+                                Console.WriteLine();
+                            }
+                            if (wolfMethod == "back")
+                            {
+                                Start();
+                            }
+                            if (wolfMethod == "quit") //still need some work(?)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                    // wolf loop-end
+
                 }
                 if (answer == "quit")
                 {
-                    break;
+                    
                 }
             }
+
         }
     }
-}
