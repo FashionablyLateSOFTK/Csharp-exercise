@@ -43,7 +43,7 @@ Here is the tree of this program:
 ```
 ├── assets
 │    ├── class_diagram_with_connections.png
-│    └── Sequence_diagram
+│    └── Sequence_diagram.png
 │
 ├── src
 │    │
@@ -63,7 +63,8 @@ Here is the tree of this program:
 │	  │       └── Animals.cs 
 │         │            
 │         ├── Fauna.csproj
-│         └── Program.cs
+│         ├── Program.cs
+│         └── TextInterface.cs
 ├── test
 │    └── ExampleTests
 │          ├── FaunaTests.cs
