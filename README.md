@@ -36,7 +36,7 @@ Here you can see what the animals can do:
 >*= Eat only when they have luky in Hunting
 ___
 
-![Dingo](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Dingo.jpg)
+![Dingo](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Dingo.jpg)
 Dingo
 
 ## Tree
