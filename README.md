@@ -9,10 +9,10 @@ A wild animal is an animal that is, well, wild. This means that it isn't tame an
 Wild animals therefore **hunt**. Hunting prey is not allowed with every attempt, which is why will animals often prey. In this program, wild animals succeed with a 60% chance to eat while hunting. So the wild animals are eating only when they are lucky in hunting.
 
 ### Tame animals
-A tame animal is an animal that is relatively tolerant of human presence. Tameness may arise naturally (as in the case, for example, of island tameness) or due to the deliberate, human-directed process of training an animal against its initially wild or natural instincts to avoid or attack humans. Tame animals are man's best friends, such as dogs, cats, rabbits or even birds. Tame animals are dependent on human food. They know that the host gives them food at regular intervals and therefore they do not have to hunt like wild animals. Domestic animals learn a few tricks, which this program introduces "**come here**".
+A tame animal is an animal that is relatively tolerant of human presence. Tameness may arise naturally (as in the case, for example, of island tameness) or due to the deliberate, human-directed process of training an animal against its initially wild or natural instincts to avoid or attack humans. Tame animals are man's best friends, such as dogs, cats, rabbits or even birds. Tame animals are dependent on human food. They know that the host gives them food at regular intervals and therefore they do not have to hunt like wild animals. Tame animals learn a few tricks, which this program introduces "**come here**".
 
 ### About this prject
-This project is made together 3 students from Centria: Heidi Keskitalo, Mathilda Nynäs and Daniel Tunér.
+_This project is made together 3 students from Centria: Heidi Keskitalo, Mathilda Nynäs and Daniel Tunér. In each section, we have helped and advised each other to make the program as effective as possible. We have worked well as a group._
 
 **Here you can find our Trello -board:
 [*Click*](https://trello.com/b/7vo5ac4i/team-fashionablylate)**
@@ -21,17 +21,19 @@ This project is made together 3 students from Centria: Heidi Keskitalo, Mathilda
 ___
 ## What this program can do?
 
-So here you can see what the animals can do:
+Here you can see what the animals can do:
 
 |**Animals**|**Talk to the owner**|**Make Sound**|**Come to the owver**|**Eat**|**Hunt**|
 | ----------|:-------------------:|:------------:|:-------------------:|:-----:|:------:|
 |  Cat      |   X                 |    x         |       x             |  x    |        |
 |  Dog      |   x                 |    x         |       x             |  x    |        |
 |  Bird     |  x                  |  x           |  x                  |  x    |        |
-|  Bear     |                     |  x           |                     |   x   |       x|
-| Tiger     |                     |  x           |                     |    x  |       x|
-| Wolf      |                     |  x           |                     |     x |       x|
+|  Bear*     |                     |  x           |                     |   x   |       x|
+| Tiger*     |                     |  x           |                     |    x  |       x|
+| Wolf*      |                     |  x           |                     |     x |       x|
 
+
+>*= Eat only when they have luky in Hunting
 ___
 
 ![Cat](https://i.imgur.com/9oGgtUg.jpg)
@@ -82,7 +84,17 @@ ____
 
 ![Class Diagram](https://raw.githubusercontent.com/FashionablyLateSOFTK/Csharp-exercise/master/assets/Class%20diagram%20with%20connections.png)
 
+___
 ## Sequence Diagram of this project
+
+>Here's how the program works. Main initially creates all the animal used in the program. It then asks if you want a list of animals or if you want to quit. 
+
+>Then you can choose which animal functions you want to view and try different functions. 
+
+>"Back" always takes you back in the program and "quit" ends the program.
 
 ![Sequence diagram](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Sequence-diagram.png)
 
+___
+
+### Thank you for reading this before using the program.
