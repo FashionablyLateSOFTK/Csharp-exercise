@@ -37,6 +37,7 @@ Here you can see what the animals can do:
 ___
 
 ![Dingo](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Dingo.jpg)
+Dingo
 
 ## Tree
 
