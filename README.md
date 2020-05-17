@@ -36,7 +36,7 @@ Here you can see what the animals can do:
 >*= Eat only when they have luck with Hunting
 ___
 
-![Cat](https://i.imgur.com/9oGgtUg.jpg)
+![Dingo](https://github.com/FashionablyLateSOFTK/Csharp-exercise/blob/master/assets/Dingo.jpg)
 
 ## Tree
 
